@@ -89,7 +89,7 @@ function M.setup(opts)
   -- ------------------------------------------
 	-- Create User Command (with autocomplete!)
   -- ------------------------------------------
-	vim.api.nvim_create_user_command("ToggleListChar", function(args)
+	vim.api.nvim_create_user_command("ToggleListChars", function(args)
 		M.toggle(args.args)
 	end, {
 		nargs = 1,

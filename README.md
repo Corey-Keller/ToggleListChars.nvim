@@ -12,7 +12,7 @@ Instead of messing with long, hard-to-read `set listchars=...` strings, this plu
 * **Smart Insert Mode:** Automatically hides trailing spaces when you enter Insert mode so your screen isn't cluttered while actively typing, then instantly restores them when you leave Insert mode.
 * **Native Lua Tables:** No string parsing. Configure everything using standard Neovim Lua tables.
 * **Zero Boilerplate:** Automatically manages the global vim.opt.list state for you. No extra configuration required to make the characters visible.
-* **Autocomplete Command:** Includes `:ToggleListChar` with built-in argument completion for your configured characters.
+* **Autocomplete Command:** Includes `:ToggleListChars` with built-in argument completion for your configured characters.
 
 ## Requirements
   * Neovim >= 0.7.0 (Relies on modern `vim.api.nvim_create_autocmd` API)
@@ -53,9 +53,9 @@ If you keep your plugins in separate files (e.g., inside a `lua/plugins/` direct
 ## Usage
 The plugin exposes a user command to toggle characters during your session. You can type this directly in the command line (it supports `<Tab>` auto-completion for valid characters!):
 ```vim
-:ToggleListChar <character>
+:ToggleListChars <character>
 ```
-Example: `:ToggleListChar space` or `:ToggleListChar trail`
+Example: `:ToggleListChars space` or `:ToggleListChars trail`
 
 ### Keymaps
 You can easily map the toggle function to your preferred keybindings using Neovim's standard Lua API:
