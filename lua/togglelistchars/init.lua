@@ -2,7 +2,7 @@
 -- File: lua/togglelistchars/init.lua
 -- Author: Corey Keller
 -- Description: Set up custom `listchars` and allow easy toggling
--- Repository: https://github.com/Corey-Keller/dotdotfiles
+-- Repository: https://github.com/Corey-Keller/ToggleListChars.nvim
 -- Last Modified: 2026-04-17
 -- License: Mozilla Public License 2.0
 -- This Source Code Form is subject to the terms of the Mozilla Public License,
